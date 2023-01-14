@@ -1,0 +1,294 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    
+}
+.nav-info{
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+    text-transform: capitalize;
+    
+}
+.chef-cap{
+height: 30px;
+width: 60px;
+padding-top: 70px;
+transform: rotate(310deg)
+
+}
+.title{
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+    color: orangered;
+}
+.chefcap-title{
+    display: flex;
+    gap: 0;
+}
+.web-info{
+    display: flex;
+    align-items: center;
+}
+.call-icons{
+    display: flex;
+    align-items: center;
+}
+.nav-info li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+}
+.nav-info li a:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    border: none;
+  
+}
+.call-icons{
+    display: flex;
+    align-items: center;
+    gap:2em;
+}
+.call{
+    /* padding: 3px 8px; */
+    padding: 10px 40px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.social-icons{
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   
+ }
+ .social-icons a{
+    color: orangered;
+    padding: 5px;
+    transition: 0.5s 0.5s;
+ }
+ .social-icons a:hover{
+    color: black; 
+    
+   
+ }
+.hero-container{
+    /* background-color: yellow; */
+    background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=1000");
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     background-position: center;
+     width: 100%;
+
+}
+.image-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-items: center;
+    width: 50%;
+    padding-top: 120px;
+    padding-left: 28%;
+    align-self: center;
+
+    
+}
+.p-recipes{
+    text-align: center;
+    padding:0 5rem;
+}
+.read-btn{
+    /* align-content: center; */
+    /* margin-top: 40px; */
+    padding: 10px 40px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.read-btn:hover{
+    background-color: black;
+    color: white;
+    
+}
+.h1-taste{
+    text-align: center;
+border-top: 2px solid black;
+padding-top: 10px;
+   
+}
+.food-category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+   padding: 1rem;
+   align-items: center;
+   justify-content: center;
+   margin:0 10rem;
+   /* padding: 0; */
+}
+.image-taste{
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.taste{
+    display: flex;
+    gap: 2em; 
+    padding: 1rem; 
+}
+.taste:hover{
+    background-color: orangered;
+    color: white;
+
+}
+/* .taste-info{
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+     
+}  */
+.recipes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1-recipes{
+    text-align: center;
+    text-decoration: overline;
+}
+.recipes-images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.recipes-images img{
+    width: 300px;
+    height: 200px;
+}
+/* .p-recipes{
+    padding: 0 400px;
+} */
+.h1-blog{
+    text-align: center;
+    /* border-top: 1px solid black; */
+    text-decoration: overline;
+}
+.h2-quote{
+    padding-top: 60px;
+    text-align: center;
+}
+/* .p-quote{
+   margin-left: 50px;
+} */
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chef-quote{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.chef{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* .p-quote{
+    padding: 0 1200px;
+} */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    margin-top: 15px;
+    padding-top: 70px;
+    justify-content: center;
+ }
+.title-footer{
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+    color: white;
+}
+.menu{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.menu-info{ 
+    /* display: flex;
+    flex-direction: column; */
+    list-style-type: none;
+    text-transform: capitalize;
+    
+}
+.menu-info li a{
+    text-decoration: none;
+    color: white;
+}
+.chefs{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+.meet-chefs{
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+.media-title{
+    font-weight: 700;
+    font-size: 20px;
+  
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style-type: none;
+    text-transform: capitalize; 
+}
+.social-media a{
+    color: white;
+}
+.social-media a:hover{
+    color: black;
+   
+}
+.p-contact{
+    color: white;
+}
+.contact{
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    color: orangered;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}
